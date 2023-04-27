@@ -18,9 +18,9 @@ body {
 }
 
 .nav_wrapper {
-  max-width: 1520px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 24px 30px;
+  padding: 24px 32px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -73,13 +73,6 @@ body {
 }
 
 header {
-  max-width: 1520px;
-  margin: 0 auto;
-  padding: 0 30px;
-}
-
-.header_wrapper {
-  width: 100%;
   background: linear-gradient(
       180deg,
       rgba(0, 64, 129, 0.37) 0%,
@@ -99,6 +92,11 @@ header {
   background-size: cover;
   border-radius: 24px;
   padding-top: 60px;
+}
+
+.header_wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .header_title {
@@ -191,7 +189,7 @@ header {
 }
 
 .about_block {
-  max-width: 1520px;
+  max-width: 1440px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -258,7 +256,7 @@ header {
   display: flex;
   align-items: center;
   /* justify-content: flex-end; */
-  width: 50%;
+  /* width: 50%; */
 }
 
 .about_right .kazakhstan_flag {
@@ -278,7 +276,7 @@ header {
 }
 
 .advantage_block {
-  max-width: 1520px;
+  max-width: 1440px;
   margin: 0 auto;
   margin-top: 180px;
 }
@@ -304,7 +302,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: space-evenly;
+  justify-content: space-between;
 
   padding: 0 32px;
 }
@@ -355,10 +353,10 @@ header {
 }
 
 .pre_footer {
-  max-width: 1520px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0 32px;
-  
+
   margin-top: 130px;
 }
 
@@ -464,14 +462,18 @@ header {
 }
 
 footer {
-  max-width: 1520px;
-  margin: 0 auto;
+  background: #1f4d9a;
+  box-shadow: -8px 8px 50px rgba(14, 21, 31, 0.3);
+  position: relative;
+  overflow: hidden;
 }
 .footer_wrapper {
-  background: #1f4d9a;
+  max-width: 1440px;
+  margin: 0 auto;
+
   display: flex;
   align-items: flex-end;
-  box-shadow: -8px 8px 50px rgba(14, 21, 31, 0.3);
+
   padding-top: 140px;
 }
 
@@ -595,10 +597,7 @@ footer {
   margin-bottom: 70px;
   margin-left: -100px;
 }
-.footer_wrapper {
-  position: relative;
-  overflow: hidden;
-}
+
 .footer_wrapper .footer_left,
 .footer_wrapper .footer_right {
   position: relative;
