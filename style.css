@@ -246,7 +246,9 @@ header {
 }
 
 .about_right {
-  position: relative;
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
   width: 50%;
 }
 
@@ -260,6 +262,10 @@ header {
   position: absolute;
   right: 60px;
   bottom: 110px;
+}
+.about_right_block {
+  max-width: 762px;
+  position: relative;
 }
 
 .advantage_block {
