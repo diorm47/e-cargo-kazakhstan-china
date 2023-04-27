@@ -248,7 +248,7 @@ header {
 .about_right {
  display: flex;
  align-items: center;
- justify-content: flex-end;
+ /* justify-content: flex-end; */
   width: 50%;
 }
 
@@ -293,8 +293,10 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: space-between;
-  padding: 0 32px;
+  justify-content: space-evenly;
+ 
+  padding: 0 32px; 
+
 }
 
 .adv_card {
@@ -1039,4 +1041,12 @@ header {
     flex-direction: row;
     margin-top: 50px;
   }
+  .nav_menu div p {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: #cbc9c9;
+    transition: all 0.5s ease;
+}
 }
