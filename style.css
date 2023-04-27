@@ -18,6 +18,8 @@ body {
 }
 
 .nav_wrapper {
+  max-width: 1520px;
+  margin: 0 auto;
   padding: 24px 30px;
   width: 100%;
   display: flex;
@@ -71,7 +73,8 @@ body {
 }
 
 header {
-  width: 100%;
+  max-width: 1520px;
+  margin: 0 auto;
   padding: 0 30px;
 }
 
@@ -188,6 +191,8 @@ header {
 }
 
 .about_block {
+  max-width: 1520px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -244,11 +249,15 @@ header {
   width: 191px;
   height: 65px;
 }
+/* .page_wrapper {
+ 
+  margin: 0 auto;
+} */
 
 .about_right {
- display: flex;
- align-items: center;
- /* justify-content: flex-end; */
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-end; */
   width: 50%;
 }
 
@@ -269,6 +278,8 @@ header {
 }
 
 .advantage_block {
+  max-width: 1520px;
+  margin: 0 auto;
   margin-top: 180px;
 }
 .advantage_title {
@@ -294,9 +305,8 @@ header {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-evenly;
- 
-  padding: 0 32px; 
 
+  padding: 0 32px;
 }
 
 .adv_card {
@@ -345,7 +355,10 @@ header {
 }
 
 .pre_footer {
+  max-width: 1520px;
+  margin: 0 auto;
   padding: 0 32px;
+  
   margin-top: 130px;
 }
 
@@ -450,6 +463,10 @@ header {
   background: #4171b3;
 }
 
+footer {
+  max-width: 1520px;
+  margin: 0 auto;
+}
 .footer_wrapper {
   background: #1f4d9a;
   display: flex;
@@ -1048,5 +1065,5 @@ header {
     line-height: 130%;
     color: #cbc9c9;
     transition: all 0.5s ease;
-}
+  }
 }
